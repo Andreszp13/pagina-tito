@@ -14,11 +14,12 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    background: #FB9E3A;
+    background-color: #e86f29;
     border-radius: 16px;
     box-shadow: 0 4px 16px #E6521F33;
     border: 4px solid #E6521F;
     margin: 0 auto;
+    padding: 30px; /* Espaciado interno para separar la imagen del borde */
 }
 .subtitulo {
     font-family: 'Chiron Sung HK', serif;
@@ -33,8 +34,8 @@ body {
 .imagen img {
   display: block;
   margin: 0 auto;
-  width: 580px;
-  height: 550px;
+  width: 600px;
+  height: 580px;
   aspect-ratio: unset;
   object-fit: cover;
   border-radius: 8px;
